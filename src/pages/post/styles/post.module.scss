@@ -1,0 +1,36 @@
+.logoContainer {
+    img {
+        height: 550px;
+    }
+}
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    h1 {
+        font-size: 40px;
+        margin-top: 5rem;
+    }
+
+    margin-bottom: 60px;
+}
+
+.postContent {
+    margin-top: 4rem;
+    line-height: 2rem;
+    font-size: 1.125rem;
+    color: var(--gray-100);
+
+    p {
+        margin-top: 3rem;
+        line-height: 40px;
+        font-size: 18px;
+        color: #D7D7D7;
+    }
+
+}
+.memo {
+    margin-top: 15px;
+}

@@ -1,0 +1,8 @@
+{
+  "apiEndpoint": "https://api.slicemachine.dev/2020-10-27",
+  "libraries": [
+    "@/slices",
+    "essential-slices"
+  ],
+  "_latest": "0.0.45"
+}

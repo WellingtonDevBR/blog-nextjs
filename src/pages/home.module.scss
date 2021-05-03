@@ -1,1 +1,41 @@
-// TODO
+.postContainer {
+    margin: 64px;
+    display: block;
+    margin-left: 22rem;
+
+    h2 {
+        cursor: pointer;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    h2:hover {
+        color: red;
+    }
+
+    p {
+        margin-top: 5px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #d7d7d7;
+    }
+
+    div {
+        margin-top: 5px;
+    }
+
+    span {
+        color: #d7d7d7;
+        font-size: 14px;
+    }
+}
+
+.loadPost {
+    margin-bottom: 60px;
+    margin-left: 22rem;
+    p {
+        color: #ff57b2;
+        font-size: 18px;
+        cursor: pointer;
+    }
+}

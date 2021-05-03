@@ -4,4 +4,18 @@
   padding: 0;
 }
 
-// TODO
+:root {
+  --background: #282c34;
+  --white: #FFFFFF;
+}
+
+body {
+  background: var(--background);
+  color: var(--white);
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem "Inter", sans-serif;
+}
+
+
