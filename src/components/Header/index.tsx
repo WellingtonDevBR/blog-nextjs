@@ -1,15 +1,14 @@
-import styles from './styles/header.module.scss'
-import img from '../../../public/image/header.png'
+import Link from 'next/link';
+import styles from './styles/header.module.scss';
 
 export default function Header() {
-
   return (
-    <>
-      <header className={styles.headerContainer}>
-        <div className={styles.headerContent}>
-          <img src={img} alt="logo" />
-        </div>
-      </header>
-    </>
-  )
+    <header className={styles.postHeader}>
+      <Link href="/">
+        <a>
+          <img src="/logo.svg" alt="logo" className={styles.logo} />
+        </a>
+      </Link>
+    </header>
+  );
 }
